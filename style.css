@@ -1,0 +1,97 @@
+/* GENERAL DOC FORMATTING */
+* {
+    background-color: #FFF9F2;
+    margin: 5px;
+    max-width: auto;
+}
+
+/* MAYBE ADD IMAGES SECTION HERE FOR QUICK SWAPPING OF BACKGROUND */
+
+.hero-img {
+    background-color: url(../img/AdobeStock_475058724\ 1.png) !important;
+    
+}
+
+/* ENG IMAGES */
+
+.navbar {
+    background-color: #3A503E !important;
+    display: grid !important;
+}
+
+.nav-item {
+    background-color: #3A503E !important;
+    margin: auto;
+}
+
+.container {
+    background-color: #FFF9F2;
+    height: 300px;
+    border-radius: 7px;
+}
+
+/////* BUTTON FORMATTING */
+
+.button {
+    /*  */
+    border: orange 3px solid;
+    /*  */
+    /*  */
+    background-color: #3A503E;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.form-field {
+    /*  */
+    border: orange 3px solid;
+    /*  */
+    /*  */
+    max-width: 300px;
+
+}
+
+/////* END BF */
+
+/////* CARD FORMATTING */
+
+.card-info {
+    border: red 1px dashed;
+}
+
+////* END CF */
+
+/* END GDF */
+/* HEADER/HERO */
+
+.home-search {
+    max-width: 500px;
+}
+
+/* END HH */
+/* BEGINNER INFO */
+
+div {
+    border: black 1px solid;
+}
+
+/* END BI */
+/* PAGE SPLIT HERO */
+
+
+/* END PSH */
+/* PAGE DISCOVER BY REGION */
+
+/* END DBR */
+/* NEWSLETTER/SIGN UP */
+
+.news-form {}
+
+/* END N/SUP */
+/* FOOTER */
+
+/* END FOOT */
+
+@media screen {}
+
+$grid-breakppoints: ()
