@@ -1,11 +1,49 @@
 /* GENERAL DOC FORMATTING */
 * {
     background-color: #FFF9F2;
-    margin: 5px;
-    max-width: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+.text-head {
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+.body-copy {
+    font-size: 20pt;
 }
 
 /* MAYBE ADD IMAGES SECTION HERE FOR QUICK SWAPPING OF BACKGROUND */
+
+/* LOGO SHIT */
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 10;
+    display: grid;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 125px 125px;
+    z-index: 100000;
+    grid-template-areas: 
+    logo logo
+    logo logo;
+    max-height: 250px;
+}
+
+.nav-logo {
+    grid-area: logo;
+}
 
 .hero-img {
     background-color: url(../img/AdobeStock_475058724\ 1.png) !important;
@@ -16,12 +54,28 @@
 
 .navbar {
     background-color: #3A503E !important;
-    display: grid !important;
+    color: #fdfefe;
+    max-height: 75px
+}
+
+.nav-buttons {
+    justify-content: flex-end !important;
 }
 
 .nav-item {
     background-color: #3A503E !important;
+    color: #fdfefe;
     margin: auto;
+}
+
+.nav-link {
+    background-color: #3A503E !important;
+    color: #fdfefe !important;
+    margin: auto;
+}
+
+.active {
+    color: #F25041 !important;
 }
 
 .container {
@@ -39,16 +93,33 @@
     /*  */
     background-color: #3A503E;
     border-radius: 30px;
+    min-width: 100px !important;
+}
+
+.login-buttons {
+    justify-content: space-between !important;
+    background-color: #3A503E !important;
+}
+
+.login {
+    color: #fdfefe;
+    border: #fdfefe 2px solid;
+}
+
+.join {
+    color: #fdfefe;
+    background-color: #F25041;
+}
+
+.login-buttons {
     width: 200px;
 }
 
-.form-field {
-    /*  */
-    border: orange 3px solid;
-    /*  */
-    /*  */
-    max-width: 300px;
-
+.search-bar {
+    justify-content: space-around;
+    border-radius: 30px;
+    max-width: 500px;
+    z-index: 9500;
 }
 
 /////* END BF */
